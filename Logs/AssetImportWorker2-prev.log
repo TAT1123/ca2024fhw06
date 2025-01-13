@@ -1,0 +1,399 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'zh' Physical Memory: 16166 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/eric/Cybercans/ca2024fhw06
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53325
+Successfully changed project path to: C:/Users/eric/Cybercans/ca2024fhw06
+C:/Users/eric/Cybercans/ca2024fhw06
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35128] Host "[IP] 192.168.13.1 [Port] 0 [Flags] 2 [Guid] 270945291 [EditorId] 270945291 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LIJIE05K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35128] Host "[IP] 192.168.13.1 [Port] 0 [Flags] 2 [Guid] 270945291 [EditorId] 270945291 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LIJIE05K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 39.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/eric/Cybercans/ca2024fhw06/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015418 seconds.
+- Loaded All Assemblies, in  0.577 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 968ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.386 seconds
+Refreshing native plugins compatible for Editor in 17.87 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 2653ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (866ms)
+		LoadAssemblies (749ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (223ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1046ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (733ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 34.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (4.1 MB). Loaded Objects now: 4319.
+Memory consumption went from 154.3 MB to 150.2 MB.
+Total: 12.097100 ms (FindLiveObjects: 1.086700 ms CreateObjectMapping: 1.977100 ms MarkObjects: 3.575300 ms  DeleteObjects: 5.456500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116047.586525 seconds.
+  path: Assets/MMD4Mecanim/Scripts/MMD4MecanimAnimMorphHelper.cs
+  artifactKey: Guid(f69667fdb18cfe34bac2f8372bd8efa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Scripts/MMD4MecanimAnimMorphHelper.cs using Guid(f69667fdb18cfe34bac2f8372bd8efa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '740952709363257f78ae285467b8168f') in 0.204940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MMD4Mecanim/Editor/MMD4MecanimBulletPhysicsInspector.cs
+  artifactKey: Guid(321d34367730e09488dae92a0c77edb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Editor/MMD4MecanimBulletPhysicsInspector.cs using Guid(321d34367730e09488dae92a0c77edb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c374300373dcfcdfc2031f4ea0476a96') in 0.009609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader
+  artifactKey: Guid(5b74ac82ea5011745b540feb6287e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader using Guid(5b74ac82ea5011745b540feb6287e39f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82866009bda535229263e8c7d397c78d') in 0.035770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics 2.75/WSA/ARM/MMD4MecanimBulletPhysics.dll
+  artifactKey: Guid(d6d75f08e9aefca45a49775b7b826c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics 2.75/WSA/ARM/MMD4MecanimBulletPhysics.dll using Guid(d6d75f08e9aefca45a49775b7b826c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd02989fd903f8fac2e2c83b59919164f') in 0.020669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics/WSA/ARM/MMD4MecanimBulletPhysics.dll
+  artifactKey: Guid(1e0b0b5fe0a5f094f8affed11179b192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics/WSA/ARM/MMD4MecanimBulletPhysics.dll using Guid(1e0b0b5fe0a5f094f8affed11179b192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15ffd7052400d9df21820451349c2015') in 0.011046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Surface-ShadowCaster.cginc
+  artifactKey: Guid(3670c074d4c1bb949baffe3a27abde2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Surface-ShadowCaster.cginc using Guid(3670c074d4c1bb949baffe3a27abde2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7b2c9790ec494de4b52b38486ea8c76') in 0.008414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc
+  artifactKey: Guid(32eafbb07c3fdc344842ba53bc769536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc using Guid(32eafbb07c3fdc344842ba53bc769536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '151b7a1589a8e9d4a2cae0d39d8eeb25') in 0.010502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Tess-BothFaces-Transparent.shader
+  artifactKey: Guid(726242f2a8f83bf4fb5840822c1e2cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Tess-BothFaces-Transparent.shader using Guid(726242f2a8f83bf4fb5840822c1e2cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfb0b2f4b290d5b068a5c9a927611f75') in 0.020104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/MMD4Mecanim/Editor/MMD4MecanimImporter.cs
+  artifactKey: Guid(e097b20a05a065348b383ab87ff42436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Editor/MMD4MecanimImporter.cs using Guid(e097b20a05a065348b383ab87ff42436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3fab363d6d79ebbf9ef77fcac508337') in 0.009999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent-Edge.shader
+  artifactKey: Guid(c881da8827dabec4ebf250989bd8dd7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent-Edge.shader using Guid(c881da8827dabec4ebf250989bd8dd7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec54dc0c1f7b5997dc57b13c0c17fb15') in 0.033114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MMD4Mecanim/Editor/MMD4MecanimModelInspector.cs
+  artifactKey: Guid(70984c264cd77b540a8860f30558d7a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Editor/MMD4MecanimModelInspector.cs using Guid(70984c264cd77b540a8860f30558d7a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d0cca48f5e6edd9ccdb5100f72ec735') in 0.010397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MMD4Mecanim/Textures/toon01.bmp
+  artifactKey: Guid(5a5602675af8c7f4ba3dbebfff2c43b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Textures/toon01.bmp using Guid(5a5602675af8c7f4ba3dbebfff2c43b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eac31cbd6b2ec4949e9f25c713a42ac') in 0.124010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-NoShadowCasting.shader
+  artifactKey: Guid(4ca989551d0832646829ff1c6029fb8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-NoShadowCasting.shader using Guid(4ca989551d0832646829ff1c6029fb8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfef892201ca4d324056edec5db24b59') in 0.026544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Edge.shader
+  artifactKey: Guid(a65994cb353789f49bdc50b95035f956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Edge.shader using Guid(a65994cb353789f49bdc50b95035f956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ad83bf80084ba20480feda6428e68f6') in 0.019410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MMD4Mecanim/Editor/MMD4MecanimBoneInspector.cs
+  artifactKey: Guid(a005b6406a1ec1c46b36c1ef6b51d0c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Editor/MMD4MecanimBoneInspector.cs using Guid(a005b6406a1ec1c46b36c1ef6b51d0c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a927d480390be080455bbc2008f9391') in 0.013289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/MMD4Mecanim/Textures/toon06.bmp
+  artifactKey: Guid(f2c64ade7063dfb47a1704d717c33b4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Textures/toon06.bmp using Guid(f2c64ade7063dfb47a1704d717c33b4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efd9d35b01291fe7eb7d4f7a7568bfca') in 0.039571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MMD4Mecanim/Textures/toon05.bmp
+  artifactKey: Guid(1ed709cb11bedcc47a6674885ca9df07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Textures/toon05.bmp using Guid(1ed709cb11bedcc47a6674885ca9df07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec72054e6924a2697a20908012e09f74') in 0.048977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll
+  artifactKey: Guid(237a2ace0fe23084c9cdd0d1311ed775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll using Guid(237a2ace0fe23084c9cdd0d1311ed775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35816c99ea4151fd5ff83cbee8a9a4cd') in 0.044170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics 2.75/x86_64/MMD4MecanimBulletPhysics.dll
+  artifactKey: Guid(499a725dea977024895608e082ab3f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics 2.75/x86_64/MMD4MecanimBulletPhysics.dll using Guid(499a725dea977024895608e082ab3f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea7df81098f3810eb46607b679d509f6') in 0.013559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MMD4Mecanim/Editor/PMX2FBX/pmx2fbx_275
+  artifactKey: Guid(5dddc555b26072c4b821a9bd7618688a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Editor/PMX2FBX/pmx2fbx_275 using Guid(5dddc555b26072c4b821a9bd7618688a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0057b01c5580809ae415722c7263508') in 0.007981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics/Android/libs/armeabi-v7a/libMMD4MecanimBulletPhysics.so
+  artifactKey: Guid(40755fa04ab4c28428bdaa5a811af26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Plugins/MMD4MecanimBulletPhysics/Android/libs/armeabi-v7a/libMMD4MecanimBulletPhysics.so using Guid(40755fa04ab4c28428bdaa5a811af26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7e6008519f38f5f5cab170f75d260d6') in 0.012714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-NoShadowCasting-Transparent-Edge.shader
+  artifactKey: Guid(405c89562d56fd54da18c02206155e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-NoShadowCasting-Transparent-Edge.shader using Guid(405c89562d56fd54da18c02206155e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9e0e2aff147f7844c1a6b43cf3dffcb') in 0.023471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent.shader
+  artifactKey: Guid(74d1fcf73fdaa0a4095f34aa79cb4430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MMD4Mecanim/Shaders/MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent.shader using Guid(74d1fcf73fdaa0a4095f34aa79cb4430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc16876401cec61ef6d0c8b798a8fb0e') in 0.025374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
